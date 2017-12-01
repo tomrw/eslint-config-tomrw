@@ -2,5 +2,15 @@
   "name": "eslint-config-tomrw",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "Tom West"
+  "author": "Tom West",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
 }
