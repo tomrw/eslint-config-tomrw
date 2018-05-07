@@ -62,7 +62,6 @@ module.exports = {
 			}
 		],
 		'react/jsx-equals-spacing': [ 'error', 'never' ],
-		'react/jsx-child-element-spacing': [ 'error', 'always' ],
 		'react/jsx-no-undef': 2,
 		'react/jsx-tag-spacing': [ 'error',
 			{
