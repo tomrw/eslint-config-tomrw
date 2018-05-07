@@ -65,7 +65,7 @@ module.exports = {
 		'react/jsx-no-undef': 2,
 		'react/jsx-tag-spacing': [ 'error',
 			{
-				closingSlash: 'always',
+				closingSlash: 'never',
 				beforeSelfClosing: 'always',
 				afterOpening: 'never',
 				beforeClosing: 'never',
