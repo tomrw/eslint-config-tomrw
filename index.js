@@ -50,41 +50,26 @@ module.exports = {
 		'comma-dangle': 'error',
 		'react/jsx-uses-react': 1,
 		'react/jsx-uses-vars': 1,
-		'react/jsx-curly-spacing': [
-			2, {
-				'when': 'always'
-			}
-		],
+		'react/jsx-curly-spacing': 'always',
 		'react/prop-types': 2,
 		'react/jsx-closing-tag-location': 2,
-		'react/jsx-closing-bracket-location': [
-			2,
-			'after-props'
-		],
+		'react/jsx-closing-bracket-location': [ 'error', 'after-props' ],
 		'react/jsx-curly-spacing': [
-			2,
+			'error',
+			'always',
 			{
-				'when': 'always',
-				'allowMultiline': false
+				allowMultiline: false
 			}
 		],
-		'react/jsx-equals-spacing': [
-			2,
-			{
-				'when': 'never'
-			}
-		],
-		'react/jsx-child-element-spacing': [
-			2,
-			{
-				'when': 'always'
-			}
-		],
+		'react/jsx-equals-spacing': [ 'error', 'never' ],
+		'react/jsx-child-element-spacing': [ 'error', 'always' ],
 		'react/jsx-no-undef': 2,
-		'react/jsx-tag-spacing': [
-			2,
+		'react/jsx-tag-spacing': [ 'error',
 			{
-				'when': 'always'
+				closingSlash: 'always',
+				beforeSelfClosing: 'always',
+				afterOpening: 'always',
+				beforeClosing: 'always',
 			}
 		],
 		'jsx-quotes': [
