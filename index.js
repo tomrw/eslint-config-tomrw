@@ -67,8 +67,8 @@ module.exports = {
 			{
 				closingSlash: 'always',
 				beforeSelfClosing: 'always',
-				afterOpening: 'always',
-				beforeClosing: 'always',
+				afterOpening: 'never',
+				beforeClosing: 'never',
 			}
 		],
 		'jsx-quotes': [
