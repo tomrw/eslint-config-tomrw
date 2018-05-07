@@ -70,16 +70,22 @@ module.exports = {
 		],
 		'react/jsx-equals-spacing': [
 			2,
-			'never'
+			{
+				'when': 'never'
+			}
 		],
 		'react/jsx-child-element-spacing': [
 			2,
-			'always'
+			{
+				'when': 'always'
+			}
 		],
 		'react/jsx-no-undef': 2,
 		'react/jsx-tag-spacing': [
 			2,
-			'always'
+			{
+				'when': 'always'
+			}
 		],
 		'jsx-quotes': [
 			'error',
