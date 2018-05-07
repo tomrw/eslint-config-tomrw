@@ -102,6 +102,7 @@ module.exports = {
 			'error',
 			'always'
 		],
+		'array-bracket-spacing': [ 'error', 'always' ],
 
 		'import/no-unresolved': [
 			2, {}
