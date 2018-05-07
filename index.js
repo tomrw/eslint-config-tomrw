@@ -72,10 +72,6 @@ module.exports = {
 			2,
 			'never'
 		],
-		'react/jsx-child-element-spacing': [
-			2,
-			'always'
-		],
 		'react/jsx-no-undef': 2,
 		'react/jsx-tag-spacing': [
 			2,
