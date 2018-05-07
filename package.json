@@ -1,6 +1,6 @@
 {
   "name": "@tom.rw/eslint-config-tomrw",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "main": "index.js",
   "author": "Tom West",
   "devDependencies": {
