@@ -56,6 +56,31 @@ module.exports = {
 			}
 		],
 		'react/prop-types': 2,
+		'react/jsx-closing-tag-location': 2,
+		'react/jsx-closing-bracket-location': [
+			2,
+			'after-props'
+		],
+		'react/jsx-curly-spacing': [
+			2,
+			{
+				'when': 'always',
+				'allowMultiline': false
+			}
+		],
+		'react/jsx-equals-spacing': [
+			2,
+			'never'
+		],
+		'react/jsx-child-element-spacing': [
+			2,
+			'always'
+		],
+		'react/jsx-no-undef': 2,
+		'react/jsx-tag-spacing': [
+			2,
+			'always'
+		],
 		'jsx-quotes': [
 			'error',
 			'prefer-double'
